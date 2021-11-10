@@ -1,0 +1,11 @@
+html,body{
+    margin:0;
+    background-color: cornflowerblue;
+}
+.whiteTitle
+{
+    width:475px;
+    height: 175px;
+    background-color: whitesmoke;
+    position: absolute; left: 40%; top: 10%; 
+}
