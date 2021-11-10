@@ -9,4 +9,5 @@ function todayIs() {
   }else{
     document.getElementById('today').innerHTML = "Today is not special";
   }
+
 }
