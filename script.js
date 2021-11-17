@@ -9,9 +9,13 @@ console.log(months);
 function todayIs() {
   if (months == 10 && days == 1){
     document.getElementById('today').innerHTML = "National Spicy Hermit Cookie Day";
-  }else if(months == 10 && dayText == 2){
+  }else if(months == 10 && days == 2){
     document.getElementById('today').innerHTML = "National Button Day";
-  }else{
+  }else if(months == 10 && days == 3)
+  {
+    document.getElementById('today').innerHTML = "National Take a hike Day"; 
+  }
+  else{
     document.getElementById('today').innerHTML = "Today is not special";
   }
 
