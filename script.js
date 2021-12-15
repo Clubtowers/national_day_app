@@ -7,8 +7,8 @@ const days = d.getDay()
 console.log(months);
 
 function todayIs() {
-  if (months == 10 && days == 1){
-    document.getElementById('today').innerHTML = "National Spicy Hermit Cookie Day";
+  if (months == 11 && days == 2){
+    document.getElementById('today').innerHTML = "National Monkey Day";
   }else if(months == 10 && days == 2){
     document.getElementById('today').innerHTML = "National Button Day";
   }else if(months == 10 && days == 3)
